@@ -1,0 +1,12 @@
+apply plugin:'java'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile"junit:junit:3.8.2"
+    compile "guava:guava:r09"
+    compile "jsr305:jsr305:3.0.2"
+}
